@@ -5,7 +5,8 @@ public class Show {
     double duration;
     Director director;
     ArrayList<Actor> listOfActors = new ArrayList<Actor>();
-    public Show(String title, double duration, Director director, ArrayList<Actor> listOfActors){
+
+    public Show(String title, double duration, Director director, ArrayList<Actor> listOfActors) {
         this.title = title;
         this.duration = duration;
         this.director = director;
@@ -13,7 +14,7 @@ public class Show {
     }
 
     public void printInfo() {
-        for (Actor actor : listOfActors){
+        for (Actor actor : listOfActors) {
             System.out.println(actor);
         }
 
